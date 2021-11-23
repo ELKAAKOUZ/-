@@ -1,0 +1,589 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family: Cairo-Bold;
+    
+}
+@font-face{
+    font-family: Cairo-Bold;
+    src: url(../fonts/Cairo-Bold.ttf);
+}
+.second{
+    height: 30px;
+    background-color: #00A859;
+}
+.second ul{
+    list-style: none;
+    position: absolute;
+    top: 2px;
+    right: 116px;
+}
+.second ul li{
+    float:right;
+    padding-right: 10px;
+    color: white;
+    line-height: 20px;
+}
+.second img{
+    width: 20px;
+    height: 20px;
+    margin-left: 7px;
+}
+.second .im{
+    margin-left: 180px;
+}
+.second .im2{
+    margin-left: 10px;
+}
+.fa-facebook{
+    transition: all 0.6 ease-in-out;
+    opacity: 0.95;
+}
+.fa-facebook:hover{
+    transform: scale(1.4);
+    opacity: 1;
+    background-color: #3b5998;
+    border-radius: 50%;
+}
+.fa-twitter{
+    transition: all 0.6 ease-in-out;
+    opacity: 0.95;
+}
+.fa-twitter:hover{
+    transform: scale(1.4);
+    opacity: 1;
+    background-color: #1da1f2;
+    border-radius: 50%;
+}
+@media screen and (max-width: 990px) {
+    .second  {
+          display: none;
+          
+        }
+ }
+
+ .elnavbar{
+    position: relative;
+    z-index: 99999;
+    background-color: black;
+    width: 100%;
+    
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link{
+    margin-left: 64px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.bg-light{
+    padding-left: 110px;
+    background-color: white;
+    height: 78px;
+    width: 100%;
+    z-index: 999;
+}
+nav img{
+    height: 70px;
+    margin-right: 110px;
+}
+
+.collapse .active a{
+
+   border-bottom: 3px solid #00A859;
+}
+.collapse a:hover{
+    border-bottom: 3px solid #00A859;
+}
+@media screen and (max-width:600px){
+    nav img{
+        text-align: right;
+        margin-right: 3px;
+        width: 180px;
+    }
+    .navbar-light .navbar-toggler{
+        text-align: left;
+        margin-left: -50px;
+    }
+    #navbarNavDropdown{
+        background-color:rgba(2, 8, 2, 0.9);
+        color: white;
+        width: 100%;
+        height: 600px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        line-height: 40px;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 18px;
+        color:white;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color: #00A859;
+    }
+    .active{
+        color: #00A859;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: #00A859;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1199px){
+    nav img{
+        text-align: right;
+        margin-right: 40px;
+    }
+    #navbarNavDropdown{
+       background-color:rgba(2, 8, 2, 0.9);
+       color: white;
+       width: 100%;
+       height: 600px;
+   }
+   .navbar-light .navbar-nav .nav-link {
+       text-align: center;
+       line-height: 40px;
+       margin-top: 20px;
+       margin-left: 0px;
+       font-size: 18px;
+       color:white;
+   }
+   .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+       color: #00A859;
+   }
+   .active{
+       color: #00A859;
+   }
+   .navbar-light .navbar-nav .nav-link:hover{
+       color: #00A859;
+   }
+}
+
+@media screen and (min-width:1200px) and (max-width:1400px){
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 25px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+}
+
+button:focus{
+    
+    outline: none !important;
+}
+input:focus{
+    
+    outline: none !important;
+}
+.sahem{
+    height: 257px;
+    background-color: #F7FCFA;
+}
+.sahem p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top:86px;
+    color: #00A859;
+}
+.sahem3 p{
+    direction: rtl;
+    text-align: justify;
+    font-weight: 700;
+    color: #666;
+    padding: 80px;
+    font-size: 18px;
+}
+.banks{
+    width: 100%;
+    height: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+.banks img{
+    
+    padding-top: 20px;
+}
+
+.banks p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 23px;
+    
+}
+.bankspara{
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 900;
+    color: #000;
+    font-size: 40px;
+    visibility: visible;
+    line-height: 44px;
+}
+.banks h3{
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    padding-right: 66px;
+    margin-bottom: 53px;
+}
+.bank1{
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid grey;
+  border-radius: 15px;
+  width: 354px;
+  height: 325px;
+  text-align: center;
+  
+}
+.bank2{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: 354px;
+    height: 325px;
+    text-align: center;
+}
+.bank3{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    border-radius: 15px;
+    height: 325px;
+    width: 354px;
+    text-align: center;
+}
+.bank1 .ani{
+    display: none;
+    top: 70px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #00A859;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.bank2 .ani{
+    display: none;
+    top: 70px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #00A859;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.bank3 .ani{
+    display: none;
+    top: 70px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #00A859;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.bank1 .ani2{
+    display: none;
+    top: 82px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #00A859;
+    animation-name: example2;
+    animation-duration: 5.99s;
+    animation-iteration-count: infinite;
+}
+.bank2 .ani2{
+    display: none;
+    top: 82px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #00A859;
+    animation-name: example2;
+    animation-duration: 5.99s;
+    animation-iteration-count: infinite;
+}
+.bank3 .ani2{
+    display: none;
+    top: 82px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #00A859;
+    animation-name: example2;
+    animation-duration: 5.99s;
+    animation-iteration-count: infinite;
+}
+@media screen and (max-width:1199px){
+    .bank1 ,.bank2 ,.bank3{
+        width: 300px;
+    }
+}
+@media screen and (min-width:1200px){
+    .bank1 .ani{
+        display: inline;
+    }
+    .bank2 .ani{
+        display: inline;
+    }
+    .bank3 .ani{
+        display: inline;
+    }
+     @keyframes example{
+        0%{
+            top: 70px;
+            left: 10px;
+        }
+        25%{
+            top: 390px;
+            left:10px;
+            
+        }
+        50%{
+            
+            top: 390px;
+            left: 364px;
+        }
+        75%{
+           top: 70px;
+           left: 364px;
+        }
+        100%{
+           top: 70px;
+            left: 10px;
+        }
+    }
+    .bank1 .ani2{
+        display: inline;
+    }
+    .bank2 .ani2{
+        display: inline;
+    }
+    .bank3 .ani2{
+        display: inline;
+    }
+     @keyframes example2{
+        0%{
+            top: 70px;
+            left: 10px;
+        }
+        25%{
+            top: 390px;
+            left:10px;
+            
+        }
+        50%{
+            
+            top: 390px;
+            left: 364px;
+        }
+        75%{
+           top: 70px;
+           left: 364px;
+        }
+        100%{
+           top: 70px;
+            left: 10px;
+        }
+    } 
+} 
+
+
+    .footer{
+        background-color: #00A859;
+        color: white;
+    }
+    .footer .number1{
+        text-align: right;
+        margin-top: 45px;
+        margin-right: 42px;
+    }
+    .footer .number1 p{
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .footer .number1 img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .footer .number1 .media p{
+        text-align: right;
+        font-size: 17px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+    }
+    .footer .number2{
+        text-align: center;
+    }
+    
+    .footer .number2 .image1{
+        margin-top: 10px;
+        margin-left: 7px;
+        background: transparent;
+    }
+    .footer .number2 .image2{
+        margin-left: 16px;
+    }
+    .footer .number2 p{
+        font-weight: 12px;
+    }
+    .footer .number2 .image3{ 
+        margin-left: 6px;
+    }
+    .footer .number2 ul{
+        list-style: none;
+        position: absolute;
+        margin-left: 26%;
+    }
+    .footer .number2 ul li{
+        float: left;
+        
+    }
+    .footer .number3{
+        text-align: right;
+        margin-right: 102px;
+        margin-top: 50px;
+        
+    }
+    .footer .number3 a{
+        color: white;
+        text-decoration-line: none;
+        
+    }
+    
+    .footer .number3 h4{
+        font-size: 15px;
+        padding-top: 10px;
+        transition: all 0.6s ease-in-out;
+    }
+    .footer .number3 h4:hover{
+        font-weight: bold;
+        transform: scaleY(1.4);
+    }
+    .footer2{ 
+        text-align: center;
+        border:1px solid white;
+        margin-top: 40px;
+        padding-top: 15px;
+    }
+    
+    @media screen and (max-width:399px){
+        .footer .number1{
+            order:2;
+            margin-left: 5%;
+        }
+        .footer .number2 .image1{
+            margin-left: 35%;
+            margin-bottom: 15px;
+        }
+        .footer .number2 p{
+            text-align: right;
+            margin-right: 8%;
+        }
+        .footer .number2 ul{
+            right: 10%;
+            margin-right: 0px;
+            
+        }
+        .footer .number2 ul li{
+            bottom: 35px;
+        }
+        .footer .number3{
+            order: 1;
+            text-align: right;
+            margin-right: 8%;
+        } 
+    }
+    @media screen and (min-width:400px) and (max-width:766px){
+        .footer .number1{
+            order:2;
+            margin-left: 5%;
+        }
+        .footer .number2 .image1{
+            margin-left: 50%;
+            margin-bottom: 15px;
+        }
+        .footer .number2 p{
+            text-align: right;
+            margin-right: 8%;
+        }
+        .footer .number2 ul{
+            right: 10%;
+            margin-right: 0px;
+            
+        }
+        .footer .number2 ul li{
+            bottom: 35px;
+        }
+        .footer .number3{
+            order: 1;
+            text-align: right;
+            margin-right: 8%;
+        }
+    }
+    @media screen and (min-width:767px) and (max-width:990px){
+        
+        .footer .number1{
+            order:2;
+            margin-right: 7%;
+        }
+        .footer .number3{
+            margin-top: 70px;
+        }
+        .footer .number2 .image1{
+            margin-left: 59%;
+            margin-bottom: 15px;
+        }
+        .footer .number2 p{
+            text-align: right;
+            margin-right: 8%;
+        }
+        .footer .number2 ul{
+            
+            margin-left: 72%;
+            margin-bottom: 25px;
+            
+        }
+        .footer .number2 ul li{
+            bottom: 35px;
+        }
+        .footer .number3{
+            order: 1;
+            text-align: right;
+            margin-right: 8%;
+        }
+    
+    }
